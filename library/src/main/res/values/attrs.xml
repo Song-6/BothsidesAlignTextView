@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <attr name="abbText" format="string"/>
+    <attr name="abbTextColor" format="color"/>
+    <attr name="abbTextSize" format="dimension"/>
+
+    <declare-styleable name="CustomTitleView">
+        <attr name="abbText"/>
+        <attr name="abbTextColor"/>
+        <attr name="abbTextSize"/>
+    </declare-styleable>
+
+</resources>

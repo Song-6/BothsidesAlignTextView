@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:custom="http://schemas.android.com/apk/res-auto"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <com.abblcg.common.ui.BothsidesAlignTextView
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:background="@android:color/holo_green_light"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        custom:abbText="我的账号"
+        custom:abbTextColor="#ffffff"
+        custom:abbTextSize="25sp"/>
+
+    <com.abblcg.common.ui.BothsidesAlignTextView
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:background="@android:color/holo_orange_light"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        custom:abbText="我的身份证号"
+        custom:abbTextColor="#ffffff"
+        custom:abbTextSize="25sp"/>
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:background="@android:color/holo_blue_light"
+        android:gravity="center_vertical"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="我的账号"
+        android:textColor="#ffffff"
+        android:textSize="25sp"/>
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:background="@android:color/holo_red_light"
+        android:gravity="center_vertical"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="我的身份证号"
+        android:textColor="#ffffff"
+        android:textSize="25sp"/>
+</LinearLayout>
